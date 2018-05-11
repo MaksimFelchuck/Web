@@ -8,7 +8,7 @@ def index(request):
 
     val = random.randrange(1, 1000)
     context = {
-        'value': 'OMAEWA MOOO SHINDEIRU!!!',
+        'value': '1',
         'val': str(val)
     }
     return render(request, 'index.html', context)
