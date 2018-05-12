@@ -6,9 +6,5 @@ import random
 # Create your views here.
 def index(request):
 
-    val = random.randrange(1, 1000)
-    context = {
-        'value': '1',
-        'val': str(val)
-    }
-    return render(request, 'index.html', context)
+
+    return render(request, 'index.html')
